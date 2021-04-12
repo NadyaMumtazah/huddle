@@ -1,0 +1,153 @@
+body {
+    background-image: url(./images/bg-desktop.svg);
+    background-color: #6155a6;
+}
+.main {
+    margin: 50px;
+}
+
+.header  {
+    font-size: 28px;
+    color: white;
+}
+
+.header i span {
+    font-family: cursive;
+    font-size: 30px;
+}
+
+.content {
+    width: 100%;
+    margin-top: 70px;
+    display: flex;
+}
+
+.text {
+    width: 500px;
+    height: 350px;
+    margin: 20px 15px 50px 35px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.text h2 {
+    font-size: 45px;
+}
+
+.text p {
+    font-size: 18px;
+    color: #dfdfdf;
+}
+
+.btn {
+    margin-top: 8px;
+    padding: 14px 50px;
+    border: none;
+    outline: none;
+    box-shadow: 2px 3px 5px rgba(0, 0 , 0, 0.65);
+    border-radius: 25px;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #6155a6;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: #ea86b6;
+    color: white;
+}
+
+.footer {
+    margin: 10px 0px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    color: white;
+}
+
+.footer i {
+    margin: 0px 8px;
+}
+
+.footer .fa-facebook-f {
+    float: right;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 8px 11px;
+}
+
+.footer .fa-twitter {
+    float: right;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 8px;
+}
+
+.footer .fa-instagram {
+    float: right;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 8px;
+}
+
+.footer i:hover {
+    color: #cc0e74;
+    cursor: pointer;
+    border: 1px solid #cc0e74;
+}
+
+@media (max-width: 375px) {
+    .main {
+        margin: 40px;
+    }
+    
+    .content {
+        margin-top: 70px;
+        display: inline-block;
+    }
+
+    .content .illustration img {
+        width: 270px;
+    }
+
+    .text {
+        width: 270px;
+        height: 280px;
+        margin: 40px 0px 0px 0px;
+        text-align: center;
+    }
+
+    .text h2 {
+        font-size: 25px;
+    }
+    
+    .text p {
+        font-size: 16px;
+    }
+
+    .btn {
+        padding: 10px 80px;
+        margin-top: 0px;
+        font-size: 13px;
+    }
+
+    .footer {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .footer i {
+        margin: 0px 4px;
+    }
+
+    .footer .fa-facebook-f {
+        float: none;
+    }
+
+    .footer .fa-twitter {
+        float: none;
+    }
+
+    .footer .fa-instagram {
+        float: none;
+    }
+}
